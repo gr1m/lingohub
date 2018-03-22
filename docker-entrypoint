@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo -e "${L_EMAIL}\n${L_TOKEN}" > ~/.lingohub/credentials
+
+exec "$@"
